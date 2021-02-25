@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AADDF8225DC6ED000F6DEBC /* Gauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADDF8125DC6ED000F6DEBC /* Gauge.swift */; };
+		3AADDF8325DC6ED000F6DEBC /* Gauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADDF8125DC6ED000F6DEBC /* Gauge.swift */; };
+		3AADDF8925DC6FB100F6DEBC /* GaugeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADDF8825DC6FB100F6DEBC /* GaugeBackground.swift */; };
+		3AADDF8A25DC6FB100F6DEBC /* GaugeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADDF8825DC6FB100F6DEBC /* GaugeBackground.swift */; };
 		3AAFB24325DB60BF006B455C /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAFB24225DB60BF006B455C /* Tests_iOS.swift */; };
 		3AAFB24E25DB60BF006B455C /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAFB24D25DB60BF006B455C /* Tests_macOS.swift */; };
 		3AAFB25025DB60BF006B455C /* WaterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAFB22725DB60BE006B455C /* WaterApp.swift */; };
 		3AAFB25125DB60BF006B455C /* WaterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAFB22725DB60BE006B455C /* WaterApp.swift */; };
-		3AAFB25225DB60C0006B455C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAFB22825DB60BE006B455C /* ContentView.swift */; };
-		3AAFB25325DB60C0006B455C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAFB22825DB60BE006B455C /* ContentView.swift */; };
+		3AAFB25225DB60C0006B455C /* mainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAFB22825DB60BE006B455C /* mainView.swift */; };
+		3AAFB25325DB60C0006B455C /* mainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAFB22825DB60BE006B455C /* mainView.swift */; };
 		3AAFB25425DB60C0006B455C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AAFB22925DB60BF006B455C /* Assets.xcassets */; };
 		3AAFB25525DB60C0006B455C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AAFB22925DB60BF006B455C /* Assets.xcassets */; };
+		3AAFB26D25DB6AFB006B455C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAFB26C25DB6AFB006B455C /* Model.swift */; };
+		3AAFB26E25DB6AFB006B455C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAFB26C25DB6AFB006B455C /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3AADDF8125DC6ED000F6DEBC /* Gauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gauge.swift; sourceTree = "<group>"; };
+		3AADDF8825DC6FB100F6DEBC /* GaugeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeBackground.swift; sourceTree = "<group>"; };
 		3AAFB22725DB60BE006B455C /* WaterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterApp.swift; sourceTree = "<group>"; };
-		3AAFB22825DB60BE006B455C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3AAFB22825DB60BE006B455C /* mainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainView.swift; sourceTree = "<group>"; };
 		3AAFB22925DB60BF006B455C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AAFB22E25DB60BF006B455C /* Water.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Water.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AAFB23125DB60BF006B455C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +57,7 @@
 		3AAFB24925DB60BF006B455C /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AAFB24D25DB60BF006B455C /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		3AAFB24F25DB60BF006B455C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AAFB26C25DB6AFB006B455C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +108,11 @@
 			isa = PBXGroup;
 			children = (
 				3AAFB22725DB60BE006B455C /* WaterApp.swift */,
-				3AAFB22825DB60BE006B455C /* ContentView.swift */,
+				3AAFB22825DB60BE006B455C /* mainView.swift */,
+				3AAFB26C25DB6AFB006B455C /* Model.swift */,
 				3AAFB22925DB60BF006B455C /* Assets.xcassets */,
+				3AADDF8825DC6FB100F6DEBC /* GaugeBackground.swift */,
+				3AADDF8125DC6ED000F6DEBC /* Gauge.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -308,8 +320,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AAFB25225DB60C0006B455C /* ContentView.swift in Sources */,
+				3AAFB26D25DB6AFB006B455C /* Model.swift in Sources */,
+				3AADDF8925DC6FB100F6DEBC /* GaugeBackground.swift in Sources */,
+				3AAFB25225DB60C0006B455C /* mainView.swift in Sources */,
 				3AAFB25025DB60BF006B455C /* WaterApp.swift in Sources */,
+				3AADDF8225DC6ED000F6DEBC /* Gauge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +332,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AAFB25325DB60C0006B455C /* ContentView.swift in Sources */,
+				3AAFB26E25DB6AFB006B455C /* Model.swift in Sources */,
+				3AADDF8A25DC6FB100F6DEBC /* GaugeBackground.swift in Sources */,
+				3AAFB25325DB60C0006B455C /* mainView.swift in Sources */,
 				3AAFB25125DB60BF006B455C /* WaterApp.swift in Sources */,
+				3AADDF8325DC6ED000F6DEBC /* Gauge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
